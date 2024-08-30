@@ -10,5 +10,14 @@
             "shareEmotions": "Share Your Emotions Safely",
             "connectEmotions": "Connect with Emotions"
         }
+    },
+    "signUpPage": {
+        "signUp": "Sign Up",
+        "email": "Email",
+        "password": "Password",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "confirmPassword": "Confirm Password",
+        "signUpWith": "Sign Up with"
     }
 }
