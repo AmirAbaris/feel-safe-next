@@ -1,0 +1,11 @@
+{
+    "navbar": {
+        "feelSafe": "Feel Safe",
+        "login": "Login",
+        "signUp": "Sign Up"
+    },
+    "homepage": {
+        "title": "Welcome to the HomePage",
+        "about": "Learn More About Us"
+    }
+}
