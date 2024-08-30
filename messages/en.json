@@ -4,8 +4,11 @@
         "login": "Login",
         "signUp": "Sign Up"
     },
-    "homepage": {
-        "title": "Welcome to the HomePage",
-        "about": "Learn More About Us"
+    "homePage": {
+        "heroSection": {
+            "safeHeaven": "Safe Heaven for Expressing Your Emotions",
+            "shareEmotions": "Share Your Emotions Safely",
+            "connectEmotions": "Connect with Emotions"
+        }
     }
 }
