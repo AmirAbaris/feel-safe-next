@@ -12,12 +12,12 @@
         }
     },
     "signUpPage": {
-        "signUp": "Sign Up",
         "email": "Email",
         "password": "Password",
-        "firstName": "First Name",
-        "lastName": "Last Name",
-        "confirmPassword": "Confirm Password",
-        "signUpWith": "Sign Up with"
+        "signUp": "Sign Up",
+        "emailRequired": "Email is required",
+        "passwordRequired": "Password is required",
+        "submissionError": "There was an error submitting the form",
+        "submitting": "Submitting..."
     }
 }
