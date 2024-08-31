@@ -1,16 +1,18 @@
 import { Button } from "@/components/ui/button";
 import { useTranslations } from "next-intl";
 import { ModeToggle } from "./ModeToggle";
+import Link from "next/link";
 
-export default function Navbar() {
-    const t = useTranslations('navbar'); // Using 'navbar' namespace for translations
+// Accept the locale as a prop from the layout or page
+export default function Navbar({ locale }: { locale: string }) {
+    const t = useTranslations('navbar');
 
     return (
         <nav className="py-4 px-8 flex justify-between items-center">
             {/* "Feel Safe" Text */}
-            <div className="text-xl font-bold">
+            <Link href={`/${locale}/`} className="text-xl font-bold">
                 {t('feelSafe')}
-            </div>
+            </Link>
 
             {/* Buttons */}
             <div className="flex items-center space-x-4">
@@ -19,8 +21,11 @@ export default function Navbar() {
                 <Button variant="ghost">
                     {t('login')} {/* "Login" Button */}
                 </Button>
-                <Button>
-                    {t('signUp')} {/* "Sign Up" Button */}
+                <Button asChild>
+                    {/* Use the locale prop to construct the href */}
+                    <Link href={`/${locale}/sign-up`}>
+                        {t('signUp')} {/* "Sign Up" Button */}
+                    </Link>
                 </Button>
             </div>
         </nav>

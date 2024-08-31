@@ -44,7 +44,7 @@ export default async function LocaleLayout({
                     enableSystem
                     disableTransitionOnChange
                 >
-                    <Navbar />
+                    <Navbar locale={locale} />
                     <NextIntlClientProvider messages={messages}>
                         {children}
                     </NextIntlClientProvider>
