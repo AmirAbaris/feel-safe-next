@@ -10,5 +10,14 @@
             "shareEmotions": "احساسات خود را به صورت امن به اشتراک بگذارید",
             "connectEmotions": "با احساسات ارتباط برقرار کنید"
         }
+    },
+    "signUpPage": {
+        "email": "ایمیل",
+        "password": "رمز عبور",
+        "signUp": "ثبت نام",
+        "emailRequired": "وارد کردن ایمیل ضروری است",
+        "passwordRequired": "وارد کردن رمز عبور ضروری است",
+        "submissionError": "خطا در ارسال فرم",
+        "submitting": "در حال ارسال..."
     }
 }

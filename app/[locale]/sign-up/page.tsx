@@ -50,7 +50,7 @@ export default function Page() {
                         placeholder={email}
                         aria-invalid={!!errors.email}
                     />
-                    {errors.email && <p className="text-red-500">{errors.email}</p>}
+                    {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
                 </div>
 
                 <div>
@@ -62,7 +62,7 @@ export default function Page() {
                         placeholder={password}
                         aria-invalid={!!errors.password}
                     />
-                    {errors.password && <p className="text-red-500">{errors.password}</p>}
+                    {errors.password && <p className="text-red-500 text-sm">{errors.password}</p>}
                 </div>
 
                 <Button className="w-full" type="submit">{t('signUp')}</Button>
