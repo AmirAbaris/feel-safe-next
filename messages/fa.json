@@ -15,6 +15,7 @@
         "email": "ایمیل",
         "password": "رمز عبور",
         "signUp": "ثبت نام",
+        "googleSignIn": "ورود با اکانت گوگل",
         "emailRequired": "وارد کردن ایمیل ضروری است",
         "passwordRequired": "وارد کردن رمز عبور ضروری است",
         "submissionError": "خطا در ارسال فرم",

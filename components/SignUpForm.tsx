@@ -38,8 +38,10 @@ export default function SignUpForm() {
         }
     };
     return (
-        <div className="flex items-center justify-center h-screen">
-            <form className="grid w-full max-w-sm items-center gap-y-4">
+        <div className="flex items-center justify-center">
+            <form className="grid w-full max-w-sm items-center gap-y-4 border p-8 rounded-xl shadow-lg">
+                <Button variant="outline">{t('googleSignIn')}</Button>
+                <div className="border"></div>
                 <div>
                     <Label htmlFor="email">{email}</Label>
                     <Input
@@ -66,6 +68,6 @@ export default function SignUpForm() {
 
                 <Button className="w-full" type="submit">{t('signUp')}</Button>
             </form>
-        </div>
+        </div >
     );
 }
