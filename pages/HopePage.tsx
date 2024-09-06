@@ -5,7 +5,7 @@ import { Heart, Send, Shield, Users, BookOpen, BarChart } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { HeroSection } from './hero-section'
+import { HeroSection } from '../components/hero-section'
 
 const initialMessages = [
   { id: 1, content: "Today was challenging, but I'm finding strength in this community.", timestamp: "2 hours ago", likes: 5 },
